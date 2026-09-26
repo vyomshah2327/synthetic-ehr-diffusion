@@ -1,0 +1,16 @@
+T: 1000
+batch_size: 256
+beta_schedule: cosine
+brnn_hidden_dim: 256
+brnn_layers: 2
+dataset: eicu
+device: cuda
+ema_decay: 0.995
+epochs: 10000
+lr: 0.0001
+model: timediff
+n_features: 35
+run_name: timediff_eicu
+save_every: 500
+seq_len: 24
+lambda_corr: 0.1
